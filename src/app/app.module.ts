@@ -10,12 +10,12 @@ import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
+import {LayoutModule} from './layout/layout.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +26,8 @@ import {MatCardModule} from '@angular/material/card';
     MatInputModule,
     MatButtonModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    LayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
